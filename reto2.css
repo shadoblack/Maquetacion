@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    border-radius: 25px;
+}
+
+.main{
+    background-color: blue;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color:aliceblue;
+    justify-content: space-between;
+}
+
+.menu_enlaces{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: top right;
+    color:aliceblue;
+    margin:auto;
+}
+
+.section
+{
+    display: flex;
+}
+
+.cuestionario
+{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: stretch;
+    
+}
+
+.imagen{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    max-width: 300px;
+    max-height: fit-content;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: bottom 20px;
+}
+
+.imagen_photo{
+    width: auto;
+    height: 100%;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.card{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.623);
+    background: grey;
+}
+
+.article
+{
+    display: flex;
+    background-image: url("https://www.theamazingstartup.es/wp-content/uploads/2020/02/codenotch-startup-1024x683.jpg");
+
+}
+
+.titulo_articulo
+{
+    display: flex;
+    border: 5px;
+    font-size: 70px;
+    text-align: center;
+
+}
+
+.parrafo
+{
+    display: flex;
+    border: 1px solid black;
+    font-size: 25px;
+    text-align: center;
+    background-color: grey;
+    opacity: 0.9;
+    box-shadow: 0px 9px 15px 0px rgba(0, 0, 0, 0.623);
+
+    
+
+}
+
+.footer
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer_texto
+{
+    font-size: 25px;
+}
+
+.imagenes
+{
+    height: 25px;
+    width: 25px;
+}
+
+/* preguntas por hacer:
+en pagina de contacto,hacer mas grandes los inputs.
+en guia de precios, conseguir que el flex le da buen espacio a los precios. */
+
