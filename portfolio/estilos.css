@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Lobster&display=swap');
+*{
+    font-family: 'Alfa Slab One', cursive;
+    margin: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    color:green;
+    border-radius: 5px;
+}
+
+.main{
+    border: 5px solid grey;
+    display:flex;
+    background-color: black;
+}
+
+.header{
+    border: 5px solid green;
+    display:flex;
+    align-content: space-between;
+}
+.img_header{
+    max-width: 500px;
+    max-height: 300px;
+    border-radius: 100%;
+}
+.nav{
+    display:flex;
+}
+
+.container{
+    
+    display: flex;
+    flex-flow: space-between;
+    margin-left: 50px;
+
+    
+}
+
+.article{
+    display:flex;
+    color:yellow;
+    flex-flow: space-between;
+}
+
+.section{
+    display:flex;
+    flex-flow: space-between;
+    align-self: auto;
+}
+
+.card{
+    border-radius: 10%;
+    display: flex;
+    max-width: 400px;
+    align-self: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 255, 0.431);
+    flex-flow: space-between;
+
+}
+
+.card:hover{
+    transform: translateX(300px) scale(1.5);
+    transition: transform 2s;
+}
+
+.section_tecno{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.tecno_card{
+    border-radius: 10%;
+    display: flex;
+    max-width: 400px;
+    align-self: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 255, 0.431);
+
+}
+
+.tecno_card:hover{
+    transform: translateX(100%) scale(1.5);
+    transition: transform 2s;
+}
+
+.tecno_img{
+    max-width: 400px;
+    max-height: 200px;
+    border-radius: 20px; 
+       
+}
+
+.section_tecno{
+    display: flex;
+
+}
+
+
+
+.footer{
+    border: 5px solid black;
+}
