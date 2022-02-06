@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Lobster&family=Supermercado+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+.header{
+    display:flex;
+    height: 250px;
+    align-items: flex-end;
+    align-content: flex-start;
+}
+.h1{
+    display: flex;
+    height: 250px;
+    align-items:flex-end;
+    margin-left: 1200px;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows:100px 100px 100px;
+    column-gap: 10px;
+    row-gap: 15px;
+    justify-content: center;
+    justify-items: center;    
+}
+
+.item1{
+grid-column: 3rem;
+grid-row: 3rem;
+background-color: black;
+width: 100px;
+height: 100px;
+border: 2px solid grey;
+}
+
+
+.container2{
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 700px;
+    margin-top: 10px;
+    display:grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-template-rows:100px ;
+    column-gap: 10px;
+    row-gap: 15px;
+    justify-content: center;
+    justify-items: center;  
+    justify-self: center; 
+    margin-left: 900px; 
+}
